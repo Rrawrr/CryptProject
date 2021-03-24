@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote Assets
+  m_EditorClassIdentifier: 
+  m_GroupName: Remote Assets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b90d37ebdc584f24b8b58eab45839c23
+  m_SerializeEntries:
+  - m_GUID: 3c64a424c6d830446b68485d0ee48d43
+    m_Address: Assets/Prefabs/ImageBear.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9432e059912e45f40b0100ec472f3ddf
+    m_Address: Assets/Prefabs/ImageDark.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bf882a1fdfa93a04bb141a03d57bd406
+    m_Address: Assets/Prefabs/ImageLight.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote
+    m_MainAsset: {fileID: 4544563051866713810, guid: bf882a1fdfa93a04bb141a03d57bd406,
+      type: 3}
+    m_TargetAsset: {fileID: 4544563051866713810, guid: bf882a1fdfa93a04bb141a03d57bd406,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f3eeef85bf53ed9419ab45ff7e5c3980, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d17f931b4a99c13438b999e321d925b0, type: 2}
+    - {fileID: 11400000, guid: d1dea9a54664436459e720907fe7d747, type: 2}
