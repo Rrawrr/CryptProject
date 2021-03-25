@@ -3,39 +3,69 @@
     "m_SelectedPackage": {
         "deviceId": "7abfd4507d83",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 13884,
+        "processId": 6293,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "7abfd4507d83",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 1781,
+            "name": "com.miui.home",
+            "processId": 2462,
             "exited": false
         },
         {
             "deviceId": "7abfd4507d83",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 9837,
+            "processId": 23735,
+            "exited": true
+        },
+        {
+            "deviceId": "7abfd4507d83",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 25382,
+            "exited": true
+        },
+        {
+            "deviceId": "7abfd4507d83",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 26737,
+            "exited": true
+        },
+        {
+            "deviceId": "7abfd4507d83",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 28023,
+            "exited": true
+        },
+        {
+            "deviceId": "7abfd4507d83",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 29156,
+            "exited": true
+        },
+        {
+            "deviceId": "7abfd4507d83",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 32673,
             "exited": false
         },
         {
             "deviceId": "7abfd4507d83",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 11575,
+            "processId": 2710,
             "exited": false
         },
         {
             "deviceId": "7abfd4507d83",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 12821,
+            "processId": 5173,
             "exited": false
         },
         {
             "deviceId": "7abfd4507d83",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 13884,
+            "processId": 6293,
             "exited": false
         }
     ],

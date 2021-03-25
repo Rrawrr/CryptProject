@@ -945,7 +945,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 100
+  m_Spacing: 80
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -982,8 +982,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816774403cae22a468b2040d02099eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: remote
+  groupToInstantiateName: Remote Assets
   parent: {fileID: 1084731513}
+  keys: []
 --- !u!4 &1102544843
 Transform:
   m_ObjectHideFlags: 0

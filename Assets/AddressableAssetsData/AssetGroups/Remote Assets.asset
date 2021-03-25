@@ -18,21 +18,25 @@ MonoBehaviour:
   m_GUID: b90d37ebdc584f24b8b58eab45839c23
   m_SerializeEntries:
   - m_GUID: 3c64a424c6d830446b68485d0ee48d43
-    m_Address: Assets/Prefabs/ImageBear.prefab
+    m_Address: ImageBear
     m_ReadOnly: 0
     m_SerializedLabels:
     - remote
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 464360974775401900, guid: 3c64a424c6d830446b68485d0ee48d43,
+      type: 3}
+    m_TargetAsset: {fileID: 464360974775401900, guid: 3c64a424c6d830446b68485d0ee48d43,
+      type: 3}
   - m_GUID: 9432e059912e45f40b0100ec472f3ddf
-    m_Address: Assets/Prefabs/ImageDark.prefab
+    m_Address: ImageDark
     m_ReadOnly: 0
     m_SerializedLabels:
     - remote
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 1221603351627184141, guid: 9432e059912e45f40b0100ec472f3ddf,
+      type: 3}
+    m_TargetAsset: {fileID: 1221603351627184141, guid: 9432e059912e45f40b0100ec472f3ddf,
+      type: 3}
   - m_GUID: bf882a1fdfa93a04bb141a03d57bd406
-    m_Address: Assets/Prefabs/ImageLight.prefab
+    m_Address: ImageLight
     m_ReadOnly: 0
     m_SerializedLabels:
     - remote
