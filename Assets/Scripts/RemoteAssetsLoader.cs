@@ -25,6 +25,12 @@ public class RemoteAssetsLoader : MonoBehaviour
 
     private IEnumerator LoadAssetsCoroutine()
     {
+        if (Application.internetReachability == NetworkReachability.NotReachable)
+        {
+            Debug.Log("Check the internet connection");
+            yield break; 
+        }
+
         AsyncOperationHandle<long> getDownloadSize = Addressables.GetDownloadSizeAsync(keys);
         yield return getDownloadSize;
         Debug.Log("Download size is: " + getDownloadSize.Result.ToString());
@@ -36,10 +42,10 @@ public class RemoteAssetsLoader : MonoBehaviour
             {
                 Debug.Log("Downloadnig assets... " + downloadDependencies.PercentComplete);
                 yield return null;
-                if (getDownloadSize.Status == AsyncOperationStatus.Failed)
+                if (getDownloadSize.Status == AsyncOperationStatus.Failed || Application.internetReachability == NetworkReachability.NotReachable)
                 {
                     Debug.LogError("Failed to download remote assets");
-                    break; 
+                    yield break; 
                 }
             }
             downloadDependencies.Completed += ShowCompleteMessage;
